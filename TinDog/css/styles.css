@@ -1,0 +1,169 @@
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+body{
+    font-family: "Montserrat";
+}
+h1{
+    font-family: "Montserrat";
+font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat";
+   font-weight: 900;
+   padding-bottom: 20px;
+}
+
+h2{
+    font-family: "montserrat";
+    font-weight: 900;
+    line-height: 2;
+    font-size: 3.8rem;  
+    
+}
+p{
+    color: rgb(117, 117, 117);
+}
+.container-fluid{
+    padding: 3% 15% 7% 15% ;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2rem
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 1.05rem;
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
+.button{
+    margin: 3rem 2% 0 ;
+}
+
+.iphone-img{
+    width: 360px;
+
+transform: rotate(25deg);
+position: absolute;
+right: 23%;
+
+
+
+}
+
+
+/* features */
+
+
+#features{
+   
+    padding: 7% 12%;
+    line-height: 1.5;
+    background-color: white;
+    position:relative;
+    z-index: 1;
+}
+
+.feature-set{
+text-align: center;
+padding: 5%;
+}
+
+.img{
+    padding-bottom: 20px;
+    color: #ef8172;
+}
+
+.img:hover{
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.carousel-item{
+    padding: 7% 12%;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.press-logo{
+   
+    padding: 25px 25px 50px;
+}
+
+
+#pricing{
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.tag{
+padding: 2%;
+
+}
+
+@media (max-width:1333px) {
+.iphone-img {
+ position: static;
+ transform: rotate(0);
+padding-top: 5%;
+}
+#title{
+    text-align: center;
+}
+}
+
+/* footer */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 5%;
+    text-align: center;
+}
+
+.cta-font{
+    color: white;
+    font-weight: 900;
+    font-size: 3.5rem;
+    width: 60%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+#footer{
+    padding: 5%;
+    text-align: center;
+}
+.icons{
+    padding: 1%;
+}
